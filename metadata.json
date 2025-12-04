@@ -1,0 +1,7 @@
+{
+  "name": "Yaya's Playground",
+  "description": "An interactive iPad/Mobile web app for Daurian Jackdaws and other corvids, featuring sound and vibration detection for screen interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
