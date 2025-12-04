@@ -12,7 +12,7 @@ export const usePeckDetection = ({ settings, onPeck, isActive }: PeckHookProps) 
   const [motionPermission, setMotionPermission] = useState<PermissionState>('prompt');
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
-  const dataArrayRef = useRef<Uint8Array | null>(null);
+  const dataArrayRef = useRef<Uint8Array<ArrayBuffer> | null>(null);
   const lastPeckTime = useRef<number>(0);
   const rafId = useRef<number>(0);
 
@@ -82,7 +82,7 @@ export const usePeckDetection = ({ settings, onPeck, isActive }: PeckHookProps) 
       
       audioContextRef.current = audioCtx;
       analyserRef.current = analyser;
-      dataArrayRef.current = new Uint8Array(analyser.fftSize);
+      dataArrayRef.current = new Uint8Array(analyser.fftSize) as Uint8Array<ArrayBuffer>;
       setMicPermission('granted');
       startListening();
     } catch (err) {
