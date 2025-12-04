@@ -97,7 +97,6 @@ export const BACKGROUND_PRESETS: BackgroundSetting[] = [
   { type: 'image', value: 'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=2560&auto=format&fit=crop', name: 'Forest Floor' },
   { type: 'image', value: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2560&auto=format&fit=crop', name: 'Grass Field' },
   { type: 'image', value: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2560&auto=format&fit=crop', name: 'Water Surface' },
-  { type: 'image', value: 'https://images.unsplash.com/photo-1618520261314-1b12b50d5362?q=80&w=2560&auto=format&fit=crop', name: 'Wood Texture' },
   { type: 'image', value: 'https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2560&auto=format&fit=crop', name: 'Deep Forest' },
   { type: 'image', value: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=2560&auto=format&fit=crop', name: 'Pebbles' },
 ];
