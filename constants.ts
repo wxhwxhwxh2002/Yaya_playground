@@ -11,8 +11,10 @@ export const BUG_IMAGES = [
   'https://api.iconify.design/noto:cockroach.svg',
   'https://api.iconify.design/noto:snail.svg',
   'https://api.iconify.design/noto:mosquito.svg',
-  'https://api.iconify.design/noto:locust.svg',
-  'https://api.iconify.design/noto:worm.svg'
+  'https://api.iconify.design/noto:worm.svg',
+  'https://api.iconify.design/noto:fly.svg',
+  'https://api.iconify.design/noto:scorpion.svg',
+  'https://api.iconify.design/noto:microbe.svg'
 ];
 
 export const FRUIT_IMAGES = [
@@ -27,7 +29,14 @@ export const FRUIT_IMAGES = [
   'https://api.iconify.design/noto:pineapple.svg',
   'https://api.iconify.design/noto:kiwi-fruit.svg',
   'https://api.iconify.design/noto:pear.svg',
-  'https://api.iconify.design/noto:blueberries.svg'
+  'https://api.iconify.design/noto:blueberries.svg',
+  'https://api.iconify.design/noto:green-apple.svg',
+  'https://api.iconify.design/noto:mango.svg',
+  'https://api.iconify.design/noto:melon.svg',
+  'https://api.iconify.design/noto:lemon.svg',
+  'https://api.iconify.design/noto:coconut.svg',
+  'https://api.iconify.design/noto:avocado.svg',
+  'https://api.iconify.design/noto:olive.svg'
 ];
 
 export const FRUIT_COLORS: Record<string, string> = {
@@ -54,7 +63,21 @@ export const FRUIT_COLORS: Record<string, string> = {
   'noto:pineapple': '#FDE047',
   'noto:kiwi-fruit': '#84CC16',
   'noto:pear': '#BEF264',
-  'noto:blueberries': '#3B82F6'
+  'noto:blueberries': '#3B82F6',
+  'green-apple': '#22C55E',
+  'mango': '#FBBF24',
+  'melon': '#F97316',
+  'lemon': '#FDE047',
+  'coconut': '#A16207',
+  'avocado': '#4D7C0F',
+  'olive': '#6B8E23',
+  'noto:green-apple': '#22C55E',
+  'noto:mango': '#FBBF24',
+  'noto:melon': '#F97316',
+  'noto:lemon': '#FACC15',
+  'noto:coconut': '#A16207',
+  'noto:avocado': '#4D7C0F',
+  'noto:olive': '#6B8E23'
 };
 
 export const BACKGROUND_PRESETS: BackgroundSetting[] = [
